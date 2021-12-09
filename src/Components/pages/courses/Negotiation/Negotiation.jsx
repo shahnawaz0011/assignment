@@ -20,7 +20,7 @@ const Negotiation = ()=>{
                     <div style={{flexGrow:"0.3"}}><button><i class='bx bx-sort-down'></i>Sort</button></div>
                     <div style={{flexGrow:"0.3"}}><button><i class='bx bx-filter'></i>Filter</button></div>
                 </div>
-                <hr style={{width:"100%"}}/>
+                <hr style={{width:"100%",backgroundColor:"#E5E5E5"}}/>
                 <Sessions/>
             </div>
             

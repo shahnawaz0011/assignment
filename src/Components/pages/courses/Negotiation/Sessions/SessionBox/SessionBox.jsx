@@ -1,6 +1,11 @@
 import React from 'react';
 import './SessionBox.css';
 const SessionBox = ({sessionType,Heading,Date,RegCount,AttendeesCount,Time})=>{
+    const styles = {
+        p:{
+            color:"#808080"
+        }
+    }
     return(
         <tr>
             <td>
@@ -13,10 +18,10 @@ const SessionBox = ({sessionType,Heading,Date,RegCount,AttendeesCount,Time})=>{
                 </div>
             </td>
             <td>
-                <p>Registrants: <span className='p__innerLink'>{RegCount}</span></p>
+                <p style={styles.p}>Registrants: <span className='p__innerLink'>{RegCount}</span></p>
             </td>
             <td>
-                <p>Attendees: <span className='p__innerLink'>{AttendeesCount}</span></p>
+                <p style={styles.p}>Attendees: <span className='p__innerLink'>{AttendeesCount}</span></p>
             </td>
             <td>
                 <span className='p__innerLink'>{Time}</span>
