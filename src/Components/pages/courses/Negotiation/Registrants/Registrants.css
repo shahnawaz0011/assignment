@@ -1,4 +1,4 @@
-.registrants__innerWrap {
+.registrants__innerWrap *{
     width: 100%;
     height: fit-content;
     border-radius: 10px;
@@ -6,3 +6,10 @@
     padding: 10px;
 }
 
+.countryFlag{
+    width: 5%;
+    border-radius: 50%;
+}
+table{
+    color:rgba(113, 113, 113, 0.8);
+}
