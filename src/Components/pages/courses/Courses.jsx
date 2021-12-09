@@ -9,14 +9,14 @@ function Courses() {
                 <Search />
                 <AddCourse />
             </div>
-            <div className="courses__bottomHead">
-            <h3>Courses</h3>
-            <div className="courses__bottomWrap">
-            <div className="courses__buttonWrap">
-                <button className="corses__button">Export</button>                
-                                <button className="corses__button">Filter</button>
 
-                </div>
+
+            <div className="courses__bottomHead">
+            <span>courses</span>
+            <div className="courses__buttonWrap">
+            <button><i class='bx bx-export'></i>Export</button>
+            <button><i class='bx bx-filter-alt' ></i>Filter</button>
+            </div>
                 </div>
                
                 
@@ -38,21 +38,39 @@ function Courses() {
                         {/* </div> */}
                         {/* <div className="course__innerRow"> */}
                         <tr>
-                            <td>3</td>
+                            <td className="table__number"><i class='bx bx-git-branch'></i>3</td>
                             <td>Live</td>
-                            <td>Negotiation</td>
+                            <td className="table__number">Negotiation</td>
                             <td>29/05/2021</td>
                             <td>12/06/2021</td>
                             <td>60</td>
-                            <td>degfde</td>
+                             <td className="table__imagesTd"><img className="table__images" src="https://st2.depositphotos.com/2777531/6975/v/600/depositphotos_69759199-stock-illustration-male-person-silhouette.jpg" alt=""/>
+                                 <img className="table__images" src="https://st2.depositphotos.com/2777531/6975/v/600/depositphotos_69759199-stock-illustration-male-person-silhouette.jpg" alt=""/>
+                                 <img className="table__images" src="https://st2.depositphotos.com/2777531/6975/v/600/depositphotos_69759199-stock-illustration-male-person-silhouette.jpg" alt=""/>
+                                 <img className="table__images" src="https://st2.depositphotos.com/2777531/6975/v/600/depositphotos_69759199-stock-illustration-male-person-silhouette.jpg" alt=""/></td>
                             <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <td className="table__number"><i class='bx bx-git-branch'></i>2</td>
+                            <td>upcoming</td>
+                            <td className="table__number">Interaction</td>
+                            <td>29/05/2021</td>
+                            <td>12/06/2021</td>
+                            <td>60</td>
+                            <td className="table__imagesTd"><img className="table__images" src="https://st2.depositphotos.com/2777531/6975/v/600/depositphotos_69759199-stock-illustration-male-person-silhouette.jpg" alt=""/>
+                                 <img className="table__images" src="https://st2.depositphotos.com/2777531/6975/v/600/depositphotos_69759199-stock-illustration-male-person-silhouette.jpg" alt=""/>
+                                 <img className="table__images" src="https://st2.depositphotos.com/2777531/6975/v/600/depositphotos_69759199-stock-illustration-male-person-silhouette.jpg" alt=""/>
+                                 <img className="table__images" src="https://st2.depositphotos.com/2777531/6975/v/600/depositphotos_69759199-stock-illustration-male-person-silhouette.jpg" alt=""/></td>
+                            <td>No</td>
                         </tr>
                         {/* </div> */}
 
                     </table>
                 </div>
+               
             </div>
-        </div>
+            
+    
     )
 }
 
