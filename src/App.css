@@ -1,0 +1,21 @@
+:root{
+  --background-color:#F7F9FB;
+  --nav-background:#DFE6FD; 
+  --button-color:#2477BC;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--background-color);
+}
+.container
+{
+  display: flex;
+}
+.container>.other{
+  flex: 5;
+  position: relative;
+  background-color: green;
+  margin: 20px;
+}

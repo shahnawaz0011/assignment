@@ -1,0 +1,19 @@
+.addCourse {
+    background-color: var(--button-color);
+    padding: 10px 20px;
+    border-radius: 19px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.addCourse>i {
+    background-color: inherit;
+    color: inherit;
+    font-size: 1.4em;
+    padding: 0px 10px;
+}

@@ -1,0 +1,33 @@
+.courses {
+    width: 100%;
+    height: 100%;
+    background-color: var(--background-color);
+
+}
+
+.courses__topWrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+}
+
+.courses__bottomWrap {
+    margin-top: 100px;
+    position:relative;
+}
+
+.courses__innerBottomWrap {
+    width: 100%;
+    height: fit-content;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.145);
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}

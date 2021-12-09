@@ -1,0 +1,85 @@
+.dashboard
+{
+    flex: 1;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    text-align: center;
+    position: sticky;
+    left: 0;
+    top: 0; 
+}
+.dasboard__title
+{
+    width: 100%;
+    height: 50px;
+    background-color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.actives
+{
+    background-color: var(--nav-background)!important;
+    color: var(--button-color)!important;
+}
+
+.dashboard__footer
+{
+    width: 100%;
+    height: 150px;
+    background-color: inherit;
+    color: var(--button-color);
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.dasboard__title>i
+{
+    font-size: 1.9em;
+    color: rgba(0,0,0,0.7);
+    background-color: inherit;
+}
+.dasboard__links
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: inherit;
+    width: 100%;
+    height: 100%;
+}
+.dasboard__links>.page_links
+{
+    text-decoration: none;
+    background-color: inherit;
+    border-radius: 5px;
+    margin: auto;
+    width: 80%;    
+    height: fit-content;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    text-align: center;
+    padding: 10px 30px 10px;
+    font-weight: 600;
+    color: rgba(0,0,0,0.6);
+}
+/* .page_links:focus
+{
+    background-color: var(--nav-background);
+    color: var(--button-color);
+} */
+.dasboard__icons
+{
+    background-color: inherit;
+    margin-right: 20px;
+    /* background-color: red; */
+    padding-top: 3px;
+    font-size:1.3em;
+}
