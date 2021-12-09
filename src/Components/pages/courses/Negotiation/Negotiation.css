@@ -7,7 +7,7 @@
     display:flex;
     justify-content:space-between;
     /* flex-direction:colu; */
-    margin-top:5rem;
+    margin-top:3rem;
     padding:10px;
 }
 
@@ -37,4 +37,28 @@
     background-color: none;
     border:none;
     font-size: 1em;
+}
+.negotiations__innerWrap{
+    width: 100%;
+    height: fit-content;
+    border-radius: 15px;
+    border:10px solid rgba(128, 128, 128, 0.145);
+    padding: 10px;
+}
+.negotiations__innerWrap > *{
+    background-color: white !important;
+}
+.negotiations__innerHead{
+    display: flex;
+    height: 5vh !important;
+    padding-top: 1vh;
+    border-radius: 10px;
+
+}
+.negotiations__innerHead > div > button{
+    background-color: none;
+    border: none;
+    color:#B9B9B9;
+    font-size: 1em;
+    padding-left: 2vw !important;
 }

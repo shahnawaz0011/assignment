@@ -4,7 +4,6 @@ import "./Courses.css";
 import Negotiation from './Negotiation/Negotiation';
 import Registrants from './Negotiation/Registrants/Registrants';
 import Search from './search/Search';
-import Sessions from './Sessions/Sessions';
 function Courses() {
     return (
         <div className="courses">
