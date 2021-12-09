@@ -1,0 +1,68 @@
+.courses__bottomHead
+{
+    width:100%;
+    height:fit-content;
+    /* background-color:red; */
+    position:relative;
+    display:flex;
+    justify-content:space-between;
+    /* flex-direction:colu; */
+    margin-top:3rem;
+    padding:10px;
+}
+
+.courses__bottomHead>span
+{
+    background-color:inherit;
+    font-size:1.4em;
+}
+
+.courses__buttonWrap>button
+{background-color:var(--nav-background);
+    padding:10px 15px;
+    border:none;
+    margin:auto 10px;
+    border-radius:7px;
+    color:var(--button-color);
+    cursor:pointer;
+    font-size:1.0em;
+    
+}
+.courses__buttonWrap>button>i
+{
+    background-color:inherit;
+    padding:0px 5px;
+}
+.backBtn{
+    background-color: none;
+    border:none;
+    font-size: 1em;
+}
+.negotiations__innerWrap{
+    width: 100%;
+    height: fit-content;
+    border-radius: 15px;
+    border:10px solid rgba(128, 128, 128, 0.145);
+    padding: 10px;
+    background-color: white;
+}
+.negotiations__innerWrap  *{
+    background-color: white !important;
+}
+.negotiations__innerHead{
+    display: flex;
+    height: 5vh !important;
+    padding-top: 1vh;
+    border-radius: 10px;
+    background-color: white !important;
+}
+.negotiations__innerHead > div > button{
+    background-color: white;
+    border: none;
+    color:#B9B9B9;
+    font-size: 1em;
+    padding-left: 2vw !important;
+}
+.Negotiations{
+    background-color: white !important;
+}
