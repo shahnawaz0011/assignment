@@ -1,5 +1,5 @@
 import React from'react';
-import SessionBox from './Session_wrap/SessionBox';
+import SessionBox from '../../Sessions/Session_wrap/SessionBox';
 import './Sessions.css';
 const Sessions = ()=>{
 

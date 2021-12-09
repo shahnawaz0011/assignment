@@ -1,0 +1,40 @@
+.courses__bottomHead
+{
+    width:100%;
+    height:fit-content;
+    /* background-color:red; */
+    position:relative;
+    display:flex;
+    justify-content:space-between;
+    /* flex-direction:colu; */
+    margin-top:5rem;
+    padding:10px;
+}
+
+.courses__bottomHead>span
+{
+    background-color:inherit;
+    font-size:1.4em;
+}
+
+.courses__buttonWrap>button
+{background-color:var(--nav-background);
+    padding:10px 15px;
+    border:none;
+    margin:auto 10px;
+    border-radius:7px;
+    color:var(--button-color);
+    cursor:pointer;
+    font-size:1.0em;
+    
+}
+.courses__buttonWrap>button>i
+{
+    background-color:inherit;
+    padding:0px 5px;
+}
+.backBtn{
+    background-color: none;
+    border:none;
+    font-size: 1em;
+}
