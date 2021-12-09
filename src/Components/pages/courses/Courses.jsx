@@ -66,8 +66,11 @@ function Courses() {
                         {/* </div> */}
 
                     </table>
+                    
                 </div>
-               
+                
+               <div className="courses__pagination">
+                Rows Per <span style={{padding:"0px 10px 10px"}}>Page 6 <i class='bx bxs-down-arrow' style={{fontSize:"0.8em"}}></i></span> <span>1-6 of 150 </span><i class='bx bx-chevron-left' style={{cursor:"pointer",fontWeight:"800"}}></i><i class='bx bx-chevron-right' style={{cursor:"pointer",fontWeight:"800"}}></i></div>
             </div>
             
     

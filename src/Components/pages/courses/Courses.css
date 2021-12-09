@@ -92,3 +92,10 @@ table {
 {
     margin-left:-42px;
 }
+
+.courses__pagination
+{
+    float:right;
+    color:rgba(128, 128, 128, 0.8);
+    padding:3rem 4rem 0px 0px;
+}
