@@ -2,6 +2,7 @@ import React from 'react'
 import AddCourse from './addCourse/AddCourse';
 import "./Courses.css";
 import Search from './search/Search';
+import Sessions from './Sessions/Sessions';
 function Courses() {
     return (
         <div className="courses">
@@ -21,36 +22,7 @@ function Courses() {
                
                 
 
-
-                <div className="courses__innerBottomWrap">
-                    <table cellSpacing="20" cellPadding="10">
-                        {/* <div className="course__innerRowHead"> */}
-                        <tr>
-                            <th>Session</th>
-                            <th>Status</th>
-                            <th>Course Name</th>
-                            <th>Begin Date</th>
-                            <th>End Date</th>
-                            <th>Regstration</th>
-                            <th>Trainers</th>
-                            <th>Certificate</th>
-                        </tr>
-                        {/* </div> */}
-                        {/* <div className="course__innerRow"> */}
-                        <tr>
-                            <td>3</td>
-                            <td>Live</td>
-                            <td>Negotiation</td>
-                            <td>29/05/2021</td>
-                            <td>12/06/2021</td>
-                            <td>60</td>
-                            <td>degfde</td>
-                            <td>Yes</td>
-                        </tr>
-                        {/* </div> */}
-
-                    </table>
-                </div>
+                <Sessions/>
             </div>
         </div>
     )
